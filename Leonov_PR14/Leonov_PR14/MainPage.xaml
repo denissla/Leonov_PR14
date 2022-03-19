@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Leonov_PR14.MainPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="lbl_data" FontSize="Large" HorizontalOptions="Center" Margin="30" TextColor="DarkGreen" BackgroundColor="GreenYellow"/>
+            <Label x:Name="lbl_result" FontSize="Large" HorizontalOptions="Center" Margin="60" TextColor="DarkGreen" BackgroundColor="GreenYellow"/>
+            <StackLayout Orientation="Horizontal">
+                <Button
+            x:Name="btnStartTimer"
+            Clicked="btn_Start_Clicked"
+            Text="Старт" HorizontalOptions="Center" Margin="80" FontSize="Large" BorderColor="GreenYellow" BorderWidth="2" BackgroundColor="Green" HeightRequest="50" WidthRequest="215"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
